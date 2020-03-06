@@ -9,6 +9,9 @@
     padding: 10px;
     margin-bottom: 20px;
   }
+  @media (max-width: 400px) {
+    padding: 10px 1px;
+  }
   .logo-container {
     height: 100%;
     width: 70px;
@@ -31,6 +34,9 @@
     .option {
       padding: 10px 15px;
       cursor: pointer;
+      @media (max-width: 400px) {
+        padding: 10px 8px;
+      }
     }
   }
 }
